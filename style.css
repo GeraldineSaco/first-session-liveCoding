@@ -1,21 +1,32 @@
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-h1{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-p{
-    margin: 15px;
-    padding: 15px;
-    text-align: center;
-    line-height: 1.5rem;  
+p {
+  margin: 15px;
+  padding: 15px;
+  text-align: center;
+  line-height: 1.5rem;
 }
 
-.container-navbar{
+.container-navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
 
+.btn-donwload {
+  padding: 5px 40px 5px 40px;
+  border-radius: 15px;
+  background-color: blueviolet;
+}
 
+. .image-mobile {
+  width: 50%;
 }
